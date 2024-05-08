@@ -35,6 +35,8 @@
   float: left;
 }
 
+
+
 #div4{
   min-height: 100px;
   width: 500px;
@@ -55,6 +57,16 @@
   padding: 10px;
   border-radius: 15px;
   clear: left;
+}
+
+#text-overflow{
+  min-height: 100px;
+  width: 500px;
+  background-color: gainsboro;
+  color: #913b1b;
+  border: 3px dotted orangered;
+  margin: 50px;
+  padding: 15px;
 }
 
 #div6{
@@ -230,7 +242,7 @@
   border: 2px solid greenyellow;
   padding: 15px;
   margin: 15px;
-  animation: myanimation 5s ease-in 2s 1 forwards;
+  animation: myanimation 5s ease-in-out 2s infinite forwards;
 }
 /* #div14:hover {
   animation: ;
