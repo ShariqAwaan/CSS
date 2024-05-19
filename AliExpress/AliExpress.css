@@ -1,0 +1,914 @@
+*{
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+
+/* NavBar1 */
+
+#navBar1{
+  height: 95px;
+  width: 100%;
+  background-color: black;
+  color: white;
+  display: flex;
+  position: sticky;
+  top: 0px;
+}
+#logos{
+  width: 300px;
+  height: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+#aliExp{
+  height: 25px;
+  width: 100px;
+  margin-top: 15px;
+  /* margin-left: 1px; */
+  background-image: url(aliExpress.png);
+  background-size: cover;
+}
+#euros{
+  height: 30px;
+  width: 100px;
+  margin-top: 14px;
+  margin-left: 10px;
+  background-image: url(Euuro2024.png);
+  background-size: cover;
+  border-left: 1px solid white;
+}
+#partnerText{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+#searchBar{
+  width: auto;
+  height: 100px;
+  display: flex;
+  /* flex-wrap: wrap; */
+  /* justify-content: center; */
+}
+#searchInput{
+  height: 40px;
+  width: 570px;
+  margin-top: 15px;
+  /* margin-left: 10px; */
+  border-radius: 15px;
+  border: 2px solid rgb(189, 124, 124);
+}
+.searchBar{
+  height: 40px;
+  width: 40px;
+  padding: 8px;
+  margin-left: 10px;
+  border-radius: 10px;
+  background-color: rgb(86, 90, 91);
+  border: 2px solid rgb(95, 86, 86);  
+  margin-top: 15px;
+}
+
+
+#quickAccessBar{
+  width: 500px;
+  height: 100px;
+  display: flex;
+  justify-content: space-around;
+}
+.quickAccessBarIcons{
+  font-size: 22px;
+}
+#qrcode{
+  height: 35px;
+  width: 50px;
+  /* margin-top: 0px; */
+  margin-left: 40px;
+}
+.downarrow{
+  margin-top: 30px;
+  margin-left: 4px
+}
+#pakistanLogo{
+  height: 35px;
+  width: 50px;
+  /* margin-top: 20px; */
+  margin-left: 25px;
+}
+#contactsicon{
+  height: 35px;
+  width: 50px;
+  /* margin-top: 15px; */
+  margin-left: 25px;
+}
+#carticon{
+  height: 35px;
+  width: 60px;
+  /* margin-top: 16px; */
+  margin-left: 25px;
+}
+
+/* NavBar2 */
+
+#navBar2{
+  min-height: 60px;
+  width: 100%;
+  background-color: black;
+  color: white;
+  display: flex;
+}
+#categories{
+  /* display: flex; */
+  align-items: center;
+  justify-content: space-evenly;
+  align-content: space-between;
+  background-color: rgb(97, 96, 94);
+  color: white;
+  border-radius: 25px;
+  width: 400px;
+  height: 40px;
+  margin-left: 40px;
+  font-family: "Roboto", sans-serif;
+  border: none;
+}
+.navBarButtons{
+  background-color: black;
+  color: white;
+  width: 20%;
+  height: 40px;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  border: none;
+}
+.navBarButtons:hover{
+  background-color: rgb(40, 38, 38);
+  border: 1px solid rgb(21, 17, 17);
+  border-radius: 20px;
+  cursor: pointer;
+}
+#navBar2More{
+  justify-content: center;
+}
+
+/* HeroSection1 */
+
+#heroSection1{
+  height: 90px;
+  width: 100%;
+  background-color: white;
+  color: black;
+  display: flex;
+  margin-top: 30px; 
+}
+#heroSec1Text1{
+  width: 20%;
+  /* margin-top: 30px; */
+  margin-left: 50px;
+  align-items: center;
+  justify-content: space-evenly;
+  align-content: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 25px;
+}
+.heroSec1Icons{
+  font-size: 25px;
+  margin-bottom: 10px;
+  color: black;
+}
+strong{
+  color: black;
+}
+.heroSec1Texts{
+  width: 15%;
+  /* margin-top: 30px; */
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 11px;
+  /* font-weight: 700; */
+  font-style: normal;
+  color: gray;
+}
+
+
+/* HeroSection2 */
+
+/* #heroSection2{
+  min-height: 90px;
+  width: 100%;
+  background-color: white;
+  color: black;
+  display: flex;
+} */
+/* #heroSec2Login{
+  display: flex;
+  flex-wrap: wrap;
+  width: 300px;
+  height: 170px;
+  background-color: rgb(236, 236, 221);
+  justify-content: center;
+  align-items: center;
+  /* margin-left: 50px; */
+  /* margin: 30px;
+  border-radius: 25px;
+  font-size: 16px;
+  font-weight: 900;
+
+}
+#register{
+  height: 50px;
+  width: 100px;
+  background-color: black;
+  color: white;
+  border-radius: 20px;
+  border: none;
+  margin: 5px;
+  font-size: 16px;
+  font-weight: 900;
+}
+#signIn{
+  height: 50px;
+  width: 100px;
+  background-color: white;
+  color: black;
+  border-radius: 20px;
+  border: 1px solid black;
+  font-size: 16px;
+  font-weight: 900;
+}
+.heroSec2_1Icons{
+  font-size: 35px;
+  margin: 10px;
+}
+#hsec2_1text{
+  margin-left: 70px;
+  margin-right: 70px;
+  text-align: center;
+} */ 
+
+#heroSection2{
+  min-height: 90px;
+  width: 100%;
+  background-color: white;
+  color: black;
+  display: grid;
+  gap: 15px;
+}
+.heroSec2Items{
+  background-color: rgba(233, 229, 229, 0.8);
+  text-align: center;
+  padding: 20px;
+  font-size: 30px;
+}
+#heroSec2_1{
+  grid-column: 1;
+  grid-row: 1;
+  width: 300px;
+  min-height: 80px;
+  background-color: rgb(236, 236, 221);
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  border-radius: 25px;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  margin-left: 30px;
+}
+#register{
+  height: 50px;
+  width: 100px;
+  background-color: black;
+  color: white;
+  border-radius: 20px;
+  border: none;
+  margin: 5px;
+  font-size: 16px;
+  font-weight: 900;
+}
+#signIn{
+  height: 50px;
+  width: 100px;
+  background-color: white;
+  color: black;
+  border-radius: 20px;
+  border: 1px solid black;
+  font-size: 16px;
+  font-weight: 900;
+}
+.heroSec2_1Icons{
+  font-size: 30px;
+  margin: 10px;
+}
+#hsec2_1text{
+  margin: 10px 60px 0px 60px;
+  text-align: center;
+}
+
+
+
+#heroSec2_2{
+  grid-column: 2;
+  grid-row: 1 / span 2;
+  width: 380px;
+  font-family: "Roboto", sans-serif;
+  /* font-size: 20px; */
+  background-color: rgb(236, 236, 221);
+  border-radius: 25px;
+  font-size: 18px;
+  padding: 20px;
+  /* align-content: center; */
+  /* align-items: center; */
+  /* justify-content: center; */
+}
+#heroSec2_2Heading{
+  color: rgb(251, 36, 36);
+  text-align: start;
+  margin: 5px;
+  padding: 5px;
+}
+.heroSec2Text{
+  font-size: 15px;
+  text-align: start;
+  margin: 5px;
+  padding: 5px;
+}
+.hSec2_2PicsText{
+  text-align: start;
+  color: black;
+  margin-left: 60px;
+  margin-right: 60px;
+  font-size: 20px;
+  text-align: center;
+}
+.hSec2_2PicsText span{
+  color: rgb(247, 5, 5);
+  margin-left: 15px;
+  margin-right: 15px;
+  background-color: rgb(180, 106, 114);
+  border-radius: 5px;
+  font-size: 15px;
+  padding: 5px;
+}
+.hSec2PicsText{
+  text-align: start;
+  color: black;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 20px;
+}
+.hSec2PicsText span{
+  color: rgb(247, 5, 5);
+  margin-left: 15px;
+  margin-right: 15px;
+  background-color: rgb(180, 106, 114);
+  border-radius: 5px;
+  font-size: 15px;
+  padding: 5px;
+}
+
+#heroSec2_2Pics{
+  background-color: white;
+  min-height: 500px;
+  width: 340px;
+  justify-content: center;
+  align-items: center;
+  align-content: space-evenly;
+  border-radius: 15px;
+  display: flex;
+  flex-wrap: wrap;
+}
+#hsec2Pic1{
+  height: 200px;
+  width: 200px;
+  background-image: url(airBuds.jpg);
+  background-size: cover;
+  border-radius: 15px;
+  /* border: 1px solid black; */
+  margin: 10px;
+}
+#hsec2Pic2{
+  margin: 5px;
+  height: 100px;
+  width: 130px;
+  background-image: url(shoe.jpg);
+  background-size: cover;
+  border-radius: 15px;
+  /* border: 1px solid black; */
+}
+#hsec2Pic3{
+  margin: 5px;
+  height: 100px;
+  width: 130px;
+  background-image: url(watch.jpg);
+  background-size: cover;
+  border-radius: 15px;
+  /* border: 1px solid black; */
+}
+
+
+
+
+#heroSec2_3{
+  grid-column: 3;
+  grid-row: 1;
+  width: 480px;
+  margin-right: 30px;
+  font-family: "Roboto", sans-serif;
+  /* font-size: 20px; */
+  background-color: rgb(236, 236, 221);
+  border-radius: 25px;
+  font-size: 18px;
+  padding: 20px;
+}
+#heroSec2_3Heading{
+  color: rgb(0, 0, 0);
+  text-align: start;
+  font-weight: 900;
+}
+#heroSec2_3Pics{
+  /* background-color: white; */
+  min-height: 100px;
+  width: 450px;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  border-radius: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 5px;
+}
+#hsec3Pic1{
+  height: 130px;
+  width: 130px;
+  background-image: url(mobile.jpg);
+  background-size: cover;
+  border-radius: 15px;
+  /* border: 1px solid black; */
+  margin: 10px;
+}
+#hsec3Pic2{
+  margin: 5px;
+  height: 130px;
+  width: 130px;
+  background-image: url(gadgets.jpg);
+  background-size: cover;
+  border-radius: 15px;
+  /* border: 1px solid black; */
+}
+#hsec3Pic3{
+  margin: 5px;
+  height: 130px;
+  width: 130px;
+  background-image: url(juicers.jpg);
+  background-size: cover;
+  border-radius: 15px;
+  /* border: 1px solid black; */
+}
+
+
+
+
+
+#heroSec2_4{
+  grid-column: 1;
+  grid-row: 2;
+  width: 300px;
+  margin-left: 30px;
+  font-family: "Roboto", sans-serif;
+  /* font-size: 20px; */
+  background-color: rgb(236, 208, 211);
+  border-radius: 25px;
+  font-size: 18px;
+  padding: 20px;
+}
+#heroSec2_4Heading{
+  color: rgb(253, 49, 49);
+  text-align: start;
+}
+#hsec4Pic1{
+  height: 150px;
+  width: 200px;
+  background-image: url(shaving\ machine.jpg);
+  background-size: cover;
+  border-radius: 15px;
+  /* border: 1px solid black; */
+  margin: 10px;
+}
+
+
+
+
+
+
+#heroSec2_5{
+  grid-column: 3;
+  grid-row: 2;
+  width: 480px;
+  margin-right: 30px;
+  font-family: "Roboto", sans-serif;
+  /* font-size: 20px; */
+  background-color: rgb(236, 208, 211);
+  border-radius: 25px;
+  font-size: 18px;
+  padding: 20px;
+}
+#heroSec2_5Heading{
+  color: rgb(0, 0, 0);
+  text-align: start;
+}
+#heroSec2_5Pics{
+  /* background-color: white; */
+  min-height: 100px;
+  width: 450px;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  border-radius: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 5px;
+}
+#hsec5Pic1{
+  height: 130px;
+  width: 130px;
+  background-image: url(lights.jpg);
+  background-size: cover;
+  border-radius: 15px;
+  /* border: 1px solid black; */
+  margin: 10px;
+}
+#hsec5Pic2{
+  margin: 5px;
+  height: 130px;
+  width: 130px;
+  background-image: url(protector.jpg);
+  background-size: cover;
+  border-radius: 15px;
+  /* border: 1px solid black; */
+}
+#hsec5Pic3{
+  margin: 5px;
+  height: 130px;
+  width: 130px;
+  background-image: url(shirts.jpg);
+  background-size: cover;
+  border-radius: 15px;
+  /* border: 1px solid black; */
+}
+
+/* Body  */
+
+.body{
+  min-height: 90px;
+  width: 100%;
+  font-family: "Roboto", sans-serif;
+  background-color: white;
+  border-radius: 25px;
+  font-size: 18px;
+  padding: 20px;
+}
+.bodyHeadings{
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  padding: 5px;
+  margin-left: 30px;
+  margin-top: 10px;
+}
+.bodyHeadingDescription{
+  color: rgb(253, 49, 49);
+  font-weight: 500;
+}
+
+.bodyDivs{
+  min-height: 100px;
+  font-family: "Roboto", sans-serif;
+  border-radius: 25px;
+  font-size: 18px;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: center;
+  align-items: center;
+  align-content: center; */
+}
+.productsBox{
+  min-height: 300px;
+  margin-top: 0px;
+  margin: 5px;
+  width: 19%;
+  border-radius: 15px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.productsBox:hover{
+  border: 1px solid rgb(177, 113, 113);
+}
+.productsPics{
+  height: 300px;
+  margin-top: 0px;
+  margin: 5px;
+  width: 100%;
+  border-radius: 15px;
+}
+.productsPics:hover{
+  background-color: rgb(244, 245, 247);
+  border: 1px solid rgb(244, 181, 181);
+  height: 290px;
+  cursor: pointer;
+}
+.productsPicsText{
+  min-height: 30px;
+  margin-top: 0px;
+  /* margin: 5px; */
+  width: 100%;
+  padding: 15px;
+  border-radius: 15px;
+  justify-content: space-evenly;
+  /* align-items: start;
+  align-content: space-around; */
+}
+.productsPicsText:hover{
+  background-color: white;
+  border: 1px solid rgb(243, 241, 241);
+  min-height: 20px;
+}
+.buyNow{
+  background-color: black;
+  color: white;
+  height: 40px;
+  width: 90px;
+  border-radius: 20px;
+  border: none;
+  margin-top: 3px;
+}
+.buyNow:hover{
+  width: 95px;
+  height: 45px;
+  cursor: pointer;
+  border-radius: 25px;
+}
+
+#productPic1{
+  background-image: url(/AliExpress/Products/pp1.jpg);
+  background-size: cover;
+}
+#productPic2{
+  background-image: url(/AliExpress/Products/pp2.jpg);
+  background-size: cover;
+}
+#productPic3{
+  background-image: url(/AliExpress/Products/pp3.jpg);
+  background-size: cover;
+}
+#productPic4{
+  background-image: url(/AliExpress/Products/pp4.jpg);
+  background-size: cover;
+}
+#productPic5{
+  background-image: url(/AliExpress/Products/pp5.jpg);
+  background-size: cover;
+}
+#productPic6{
+  background-image: url(/AliExpress/Products/pp6.jpg);
+  background-size: cover;
+}
+#productPic7{
+  background-image: url(/AliExpress/Products/pp7.jpg);
+  background-size: cover;
+}
+#productPic8{
+  background-image: url(/AliExpress/Products/pp8.jpg);
+  background-size: cover;
+}
+#productPic9{
+  background-image: url(/AliExpress/Products/pp9.jpg);
+  background-size: cover;
+}
+#productPic10{
+  background-image: url(/AliExpress/Products/pp10.jpg);
+  background-size: cover;
+}
+#productPic11{
+  background-image: url(/AliExpress/Products/pp11.jpg);
+  background-size: cover;
+}
+#productPic12{
+  background-image: url(/AliExpress/Products/pp12.jpg);
+  background-size: cover;
+}
+#productPic13{
+  background-image: url(/AliExpress/Products/pp13.jpg);
+  background-size: cover;
+}
+#productPic14{
+  background-image: url(/AliExpress/Products/pp14.jpg);
+  background-size: cover;
+}
+#productPic15{
+  background-image: url(/AliExpress/Products/pp15.jpg);
+  background-size: cover;
+}
+#productPic16{
+  background-image: url(/AliExpress/Products/pp16.jpg);
+  background-size: cover;
+}
+#productPic17{
+  background-image: url(/AliExpress/Products/pp17.jpg);
+  background-size: cover;
+}
+#productPic18{
+  background-image: url(/AliExpress/Products/pp18.jpg);
+  background-size: cover;
+}
+#productPic19{
+  background-image: url(/AliExpress/Products/pp19.jpg);
+  background-size: cover;
+}
+#productPic20{
+  background-image: url(/AliExpress/Products/pp20.jpg);
+  background-size: cover;
+}
+#productPic21{
+  background-image: url(/AliExpress/Products/pp21.jpg);
+  background-size: cover;
+}
+#productPic22{
+  background-image: url(/AliExpress/Products/pp22.jpg);
+  background-size: cover;
+}
+#productPic23{
+  background-image: url(/AliExpress/Products/pp23.jpg);
+  background-size: cover;
+}
+#productPic24{
+  background-image: url(/AliExpress/Products/pp24.jpg);
+  background-size: cover;
+}
+#productPic25{
+  background-image: url(/AliExpress/Products/pp25.jpg);
+  background-size: cover;
+}
+#productPic26{
+  background-image: url(/AliExpress/Products/pp26.jpg);
+  background-size: cover;
+}
+#productPic27{
+  background-image: url(/AliExpress/Products/pp27.jpg);
+  background-size: cover;
+}
+#productPic28{
+  background-image: url(/AliExpress/Products/pp28.jpg);
+  background-size: cover;
+}
+#productPic29{
+  background-image: url(/AliExpress/Products/pp29.jpg);
+  background-size: cover;
+}
+#productPic30{
+  background-image: url(/AliExpress/Products/pp30.jpg);
+  background-size: cover;
+}
+
+
+
+
+/* Footer  */
+
+.footer{
+  min-height: 90px;
+  width: 100%;
+  font-family: "Roboto", sans-serif;
+  background-color: rgb(228, 220, 220);
+  /* border-radius: 25px; */
+  font-size: 18px;
+  padding: 20px;
+}
+.footerSec1{
+  min-height: 200px;
+  font-family: "Roboto", sans-serif;
+  border-radius: 25px;
+  font-size: 18px;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.footerDes1{
+  font-family: "Roboto", sans-serif;
+  border-radius: 25px;
+  font-weight: 200;
+  font-size: 16px;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 25%;
+  color: gray;
+}
+.footerDes2{
+  font-family: "Roboto", sans-serif;
+  border-radius: 25px;
+  font-size: 14px;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 25%;
+  color: gray;
+}
+.footerDes3{
+  font-family: "Roboto", sans-serif;
+  border-radius: 25px;
+  font-size: 18px;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 25%;
+}
+#des3Pic{
+  height: 100px;
+  background-image: url(payment\ types.png);
+  background-size: cover;
+  width: 100%;
+}
+
+.footerDes5{
+  font-family: "Roboto", sans-serif;
+  border-radius: 25px;
+  font-size: 15px;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 50%;
+  color: gray;
+}
+.footerDes6{
+  font-family: "Roboto", sans-serif;
+  border-radius: 25px;
+  font-size: 15px;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 50%;
+  color: gray;
+}
+.footerDes7{
+  font-family: "Roboto", sans-serif;
+  border-radius: 25px;
+  font-size: 15px;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 50%;
+  color: gray;
+}
+.footerDes8{
+  font-family: "Roboto", sans-serif;
+  border-radius: 25px;
+  font-size: 15px;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 50%;
+  color: gray;
+}
+
+#backToTop{
+  width: 100%;
+  height: 30px;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  padding: 20px;
+  text-align: center;
+  background-color: black;
+}
+a{
+  text-decoration-line: none;
+  color: white;
+}
+a:hover{
+  color: red;
+  font-size: 18px;
+}
+.footerSec2{
+  min-height: 80px;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: black;
+  color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
