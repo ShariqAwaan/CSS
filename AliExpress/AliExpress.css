@@ -277,26 +277,22 @@ strong{
   font-weight: 900;
   margin-left: 30px;
 }
-#register{
+.hSec2Btns{
   height: 50px;
   width: 100px;
-  background-color: black;
-  color: white;
+  font-size: 16px;
+  font-weight: 900;
   border-radius: 20px;
+}
+#register{background-color: black;
+  color: white;
   border: none;
   margin: 5px;
-  font-size: 16px;
-  font-weight: 900;
 }
 #signIn{
-  height: 50px;
-  width: 100px;
   background-color: white;
   color: black;
-  border-radius: 20px;
   border: 1px solid black;
-  font-size: 16px;
-  font-weight: 900;
 }
 .heroSec2_1Icons{
   font-size: 30px;
@@ -314,14 +310,10 @@ strong{
   grid-row: 1 / span 2;
   width: 380px;
   font-family: "Roboto", sans-serif;
-  /* font-size: 20px; */
   background-color: rgb(236, 236, 221);
   border-radius: 25px;
   font-size: 18px;
   padding: 20px;
-  /* align-content: center; */
-  /* align-items: center; */
-  /* justify-content: center; */
 }
 #heroSec2_2Heading{
   color: rgb(251, 36, 36);
@@ -380,13 +372,14 @@ strong{
   display: flex;
   flex-wrap: wrap;
 }
+.hSec2_2Pics{
+  background-size: cover;
+  border-radius: 15px;
+}
 #hsec2Pic1{
   height: 200px;
   width: 200px;
   background-image: url(airBuds.jpg);
-  background-size: cover;
-  border-radius: 15px;
-  /* border: 1px solid black; */
   margin: 10px;
 }
 #hsec2Pic2{
@@ -394,20 +387,13 @@ strong{
   height: 100px;
   width: 130px;
   background-image: url(shoe.jpg);
-  background-size: cover;
-  border-radius: 15px;
-  /* border: 1px solid black; */
 }
 #hsec2Pic3{
   margin: 5px;
   height: 100px;
   width: 130px;
   background-image: url(watch.jpg);
-  background-size: cover;
-  border-radius: 15px;
-  /* border: 1px solid black; */
 }
-
 
 
 
@@ -440,35 +426,24 @@ strong{
   flex-wrap: wrap;
   margin-top: 5px;
 }
-#hsec3Pic1{
-  height: 130px;
-  width: 130px;
-  background-image: url(mobile.jpg);
-  background-size: cover;
-  border-radius: 15px;
-  /* border: 1px solid black; */
-  margin: 10px;
-}
-#hsec3Pic2{
-  margin: 5px;
-  height: 130px;
-  width: 130px;
-  background-image: url(gadgets.jpg);
-  background-size: cover;
-  border-radius: 15px;
-  /* border: 1px solid black; */
-}
-#hsec3Pic3{
+.heroSec2_3Pics{
   margin: 5px;
   height: 130px;
   width: 130px;
   background-image: url(juicers.jpg);
   background-size: cover;
   border-radius: 15px;
-  /* border: 1px solid black; */
 }
-
-
+#hsec3Pic1{
+  background-image: url(mobile.jpg);
+  margin: 10px;
+}
+#hsec3Pic2{
+  background-image: url(gadgets.jpg);
+}
+#hsec3Pic3{
+  background-image: url(juicers.jpg);
+}
 
 
 
@@ -500,9 +475,6 @@ strong{
 
 
 
-
-
-
 #heroSec2_5{
   grid-column: 3;
   grid-row: 2;
@@ -531,32 +503,16 @@ strong{
   flex-wrap: wrap;
   margin-top: 5px;
 }
+
 #hsec5Pic1{
-  height: 130px;
-  width: 130px;
   background-image: url(lights.jpg);
-  background-size: cover;
-  border-radius: 15px;
-  /* border: 1px solid black; */
   margin: 10px;
 }
 #hsec5Pic2{
-  margin: 5px;
-  height: 130px;
-  width: 130px;
   background-image: url(protector.jpg);
-  background-size: cover;
-  border-radius: 15px;
-  /* border: 1px solid black; */
 }
 #hsec5Pic3{
-  margin: 5px;
-  height: 130px;
-  width: 130px;
   background-image: url(shirts.jpg);
-  background-size: cover;
-  border-radius: 15px;
-  /* border: 1px solid black; */
 }
 
 /* Body  */
@@ -612,6 +568,7 @@ strong{
   margin: 5px;
   width: 100%;
   border-radius: 15px;
+  background-size: cover;
 }
 .productsPics:hover{
   background-color: rgb(244, 245, 247);
@@ -652,124 +609,94 @@ strong{
 }
 
 #productPic1{
-  background-image: url(/AliExpress/Products/pp1.jpg);
-  background-size: cover;
+  background-image: url(/Products/pp1.jpg);
 }
 #productPic2{
-  background-image: url(/AliExpress/Products/pp2.jpg);
-  background-size: cover;
+  background-image: url(/Products/pp2.jpg);
 }
 #productPic3{
-  background-image: url(/AliExpress/Products/pp3.jpg);
-  background-size: cover;
+  background-image: url(/Products/pp3.jpg);
 }
 #productPic4{
-  background-image: url(/AliExpress/Products/pp4.jpg);
-  background-size: cover;
+  background-image: url(/Products/pp4.jpg);
 }
 #productPic5{
-  background-image: url(/AliExpress/Products/pp5.jpg);
-  background-size: cover;
+  background-image: url(/Products/pp5.jpg);
 }
 #productPic6{
-  background-image: url(/AliExpress/Products/pp6.jpg);
-  background-size: cover;
+  background-image: url(/Products/pp6.jpg);
 }
 #productPic7{
-  background-image: url(/AliExpress/Products/pp7.jpg);
-  background-size: cover;
+  background-image: url(/Products/pp7.jpg);
 }
 #productPic8{
-  background-image: url(/AliExpress/Products/pp8.jpg);
-  background-size: cover;
+  background-image: url(/Products/pp8.jpg);
 }
 #productPic9{
-  background-image: url(/AliExpress/Products/pp9.jpg);
-  background-size: cover;
+  background-image: url(/Products/pp9.jpg);
 }
 #productPic10{
-  background-image: url(/AliExpress/Products/pp10.jpg);
-  background-size: cover;
+  background-image: url(/Products/pp10.jpg);
 }
 #productPic11{
-  background-image: url(/AliExpress/Products/pp11.jpg);
-  background-size: cover;
+  background-image: url(/Products/pp11.jpg);
 }
 #productPic12{
-  background-image: url(/AliExpress/Products/pp12.jpg);
-  background-size: cover;
+  background-image: url(/Products/pp12.jpg);
 }
 #productPic13{
-  background-image: url(/AliExpress/Products/pp13.jpg);
-  background-size: cover;
+  background-image: url(/Products/pp13.jpg);
 }
 #productPic14{
-  background-image: url(/AliExpress/Products/pp14.jpg);
-  background-size: cover;
+  background-image: url(/Products/pp14.jpg);
 }
 #productPic15{
-  background-image: url(/AliExpress/Products/pp15.jpg);
-  background-size: cover;
+  background-image: url(/Products/pp15.jpg);
 }
 #productPic16{
-  background-image: url(/AliExpress/Products/pp16.jpg);
-  background-size: cover;
+  background-image: url(/Products/pp16.jpg);
 }
 #productPic17{
-  background-image: url(/AliExpress/Products/pp17.jpg);
-  background-size: cover;
+  background-image: url(/Products/pp17.jpg);
 }
 #productPic18{
-  background-image: url(/AliExpress/Products/pp18.jpg);
-  background-size: cover;
+  background-image: url(/Products/pp18.jpg);
 }
 #productPic19{
-  background-image: url(/AliExpress/Products/pp19.jpg);
-  background-size: cover;
+  background-image: url(/Products/pp19.jpg);
 }
 #productPic20{
-  background-image: url(/AliExpress/Products/pp20.jpg);
-  background-size: cover;
+  background-image: url(/Products/pp20.jpg);
 }
 #productPic21{
-  background-image: url(/AliExpress/Products/pp21.jpg);
-  background-size: cover;
+  background-image: url(/Products/pp21.jpg);
 }
 #productPic22{
-  background-image: url(/AliExpress/Products/pp22.jpg);
-  background-size: cover;
+  background-image: url(/Products/pp22.jpg);
 }
 #productPic23{
-  background-image: url(/AliExpress/Products/pp23.jpg);
-  background-size: cover;
+  background-image: url(/Products/pp23.jpg);
 }
 #productPic24{
-  background-image: url(/AliExpress/Products/pp24.jpg);
-  background-size: cover;
+  background-image: url(/Products/pp24.jpg);
 }
 #productPic25{
-  background-image: url(/AliExpress/Products/pp25.jpg);
-  background-size: cover;
+  background-image: url(/Products/pp25.jpg);
 }
 #productPic26{
-  background-image: url(/AliExpress/Products/pp26.jpg);
-  background-size: cover;
+  background-image: url(/Products/pp26.jpg);
 }
 #productPic27{
-  background-image: url(/AliExpress/Products/pp27.jpg);
-  background-size: cover;
+  background-image: url(/Products/pp27.jpg);
 }
 #productPic28{
-  background-image: url(/AliExpress/Products/pp28.jpg);
-  background-size: cover;
+  background-image: url(/Products/pp28.jpg);
 }
 #productPic29{
-  background-image: url(/AliExpress/Products/pp29.jpg);
-  background-size: cover;
+  background-image: url(/Products/pp29.jpg);
 }
 #productPic30{
-  background-image: url(/AliExpress/Products/pp30.jpg);
-  background-size: cover;
+  background-image: url(/Products/pp30.jpg);
 }
 
 
